@@ -2,6 +2,7 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -97,15 +98,15 @@
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="images\dressban.jpg" alt="apparel" />
+				<img src="<c:url value="resources/images/dressban.jpg"/>" alt="apparel" />
 			</div>
 
 			<div class="item">
-				<img src="images\accban.jpg" alt="ac" />
+				<img src="<c:url value="resources/images/accban.jpg"/>" alt="ac" />
 			</div>
 
 			<div class="item">
-				<img src="images\cosban.jpg" alt="cos" />
+				<img src="<c:url value="resources/images/cosban.jpg"/>" alt="cos" />
 			</div>
 
 
@@ -140,7 +141,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Hot deals in Women apparel</div>
 					<div class="panel-body">
-						<img src="images\dressoff.jpg" class="img-rounded" alt="Image"
+						<img src="<c:url value="resources/images/dressoff.jpg"/>" class="img-rounded" alt="Image"
 							width="525" height="300">
 					</div>
 					<div class="panel-footer">
@@ -152,7 +153,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Grab your favourite acesories</div>
 					<div class="panel-body">
-						<img src="images\accoff.jpg" class="img-rounded" alt="Image"
+						<img src="<c:url value="resources/images/accoff.jpg"/>" class="img-rounded" alt="Image"
 							width="525" height="300">
 					</div>
 					<div class="panel-footer">
@@ -167,7 +168,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Make-over set</div>
 					<div class="panel-body">
-						<img src="images\cosoff.jpg" class="img-rounded" alt="Image"
+						<img src="<c:url value="resources/images/cosoff.jpg"/>" class="img-rounded" alt="Image"
 							width="525" height="300">
 					</div>
 					<div class="panel-footer">
@@ -179,7 +180,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">Special offer</div>
 					<div class="panel-body">
-						<img src="images\cos3.jpg" class="img-rounded" alt="Image"
+						<img src="<c:url value="resources/images/cos3.jpg"/>" class="img-rounded" alt="Image"
 							width="525" height="300">
 					</div>
 					<div class="panel-footer">
